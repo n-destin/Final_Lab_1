@@ -1,0 +1,559 @@
+body{
+    color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Crimson Text', sans-serif;
+}
+
+.heading{
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+}
+
+button#exp-cont{
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 2rem;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button#exp-cont:hover{
+    background-color:  rgb(3, 3, 227);
+}
+.buttons{
+    padding: 2rem;
+    justify-content: center;
+}
+nav.laptop{
+    font-family: "Crimson Text", sans-serif;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+}
+
+nav.laptop ul{
+    margin-left: 25vw;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1#heading{
+    font-size: 3rem;
+}
+
+.logo{
+    margin-left: 5rem;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+}
+nav a:hover{
+    color: rgb(3, 3, 227);
+}
+.description h1{
+    text-align: center;
+}
+.logo img{
+    height: 5rem;
+    width: 12rem;
+}
+.content{
+    display: flex;
+    padding: .3rem;
+    justify-content: center;
+    background: url("images/bg-image.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+nav button:hover{
+    background-color: rgb(3, 3, 227);
+    color: white;
+}
+
+button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: .5rem;
+    border: 2px rgb(3, 3, 227) solid;
+    background-color: transparent;
+}
+
+li a :hover{
+    color: white;
+}
+#heading{
+    text-align: center;
+    justify-content: center;
+}
+
+.main{
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    margin-top: 15rem;
+    color: white;
+}
+
+.sections{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+}
+.partners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aside{
+    border: 2px solid black;
+    padding: .5rem;
+}
+
+.aside img{
+    height: 32rem;
+    width: 40rem;
+}
+
+span.logo{
+    color:  rgb(3, 3, 227);
+    margin-left: -1px;
+}
+
+.partnerUs h1{
+    text-align: center;
+}
+
+hr{
+    width: 80vw;
+}
+
+.icons{
+    display: flex;
+}
+
+footer >div>div> div > a >img{
+    height: 1rem;
+    width: 1rem;
+}
+p.service{
+    text-align: center;
+    font-size: large;
+    padding: 0rem 9rem 0rem 9rem;
+}
+
+
+h1.all{
+    margin-top: 4rem;
+}
+
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.section-two * {
+    width: 20vw;
+}
+
+
+.sections .section-two, .sections .section-one{
+    padding: 2rem;
+}
+
+.section-two > *{
+    border: 2px solid rgb(245, 245, 245);
+    margin: .2rem;
+}
+
+.background-one{
+    background-image: url("images/web.png");
+}
+
+.background-two{
+    background-image: url("images/mobile.png");
+}
+
+.background-three{
+    background-image: url("images/cloud.png");
+}
+
+.section-two > section > div{
+    border-radius: .3rem;
+    margin: 1rem;
+    height: 10vh;
+    width: 8vw;
+    background-size: 8vw 10vh;
+}
+#email{
+    margin-top: 2rem;
+    height: 2.2rem;
+    width: 25rem;
+}
+
+#message{
+    height: 15rem;
+    width: 25rem;
+}
+
+button.need-btn{
+    margin-top: 1rem;
+    background-color: rgb(3, 3, 227);
+    color: white;
+}
+
+button.need-btn:hover{
+    transition: 500ms;
+    background-color: transparent;
+    color: rgb(3, 3, 227);
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.copyright{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+footer{
+    font-size: large;
+    height: 40vh;
+    background-color: rgb(231, 244, 252);
+}
+
+div.foot .about{
+    width: 20vw;
+}
+
+div.foot .about h2{
+    text-align: center;
+}
+
+/* .foot .about, .foot .contact, .foot .support{
+    text-align: center;
+} */
+
+.icons{
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    margin-left: -2.4rem;
+    text-decoration: none;
+    color: rgb(75, 73, 73);
+}
+
+footer a:hover{
+    transition: 300ms;
+    color: rgb(133, 193, 245);
+}
+
+nav.mobile{
+    display: none;
+}
+
+.team{
+    justify-content: center;
+}
+
+.team h1{
+    text-align: center;
+}
+
+.team div.members{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.team .contact-icons{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-top: 14.5rem;
+}
+
+.team .contact-icons a img{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.member{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+.person img{
+    height: 12rem;
+    width: 12rem;
+}
+
+.person{
+    text-align: center;
+}
+
+.members{
+    padding: 2rem 8rem 4rem 8rem;
+}
+
+.newsletter{
+    margin: 2rem 5rem 11rem 5rem;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 15rem 2rem 15rem;
+    background-color: rgb(231, 244, 252);
+}
+
+.newsletter input{
+    margin-top: .9rem;
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-radius: .2rem;
+}
+
+
+.newsletter button{
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(3, 3, 227);
+    color: white;
+    border: none;
+    border-radius: 8rem;
+    margin-top: .9rem;
+}
+
+
+.newsletter button:hover{
+    background-color: transparent;
+    color: rgb(3, 3, 227);
+    border: 1px rgb(3, 3, 227) solid;
+    transition: 200ms;
+}
+
+.contact_icons .foot-ic img{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+
+.contact_icons .foot-ic{
+    display: flex;
+}
+
+.contact_icons .foot-ic p{
+    margin-top: -.1rem;
+    margin-left: .5rem;
+}
+
+
+@media only screen and (max-width: 640px) {
+    nav.laptop{
+        display: none;
+    }
+
+    nav.mobile{
+        display: none;
+    }
+
+    .sections{
+        flex-direction: column;
+    }
+
+    .sections .need{
+        margin-left: -2rem;
+    }
+
+    .sections .section-two{
+        flex-direction: column;
+    }
+
+    .newsletter{
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+
+
+    .section-two > * article{
+        margin-left: 4.2rem;
+    }
+
+    .newsletter input{
+        width: 20rem;
+    }
+
+    footer .foot{
+        flex-direction: column;
+        /* margin-left: 4rem; */
+        align-items: center;
+    }
+    .foot .about .icons a img{
+        padding: 3rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    button{
+        height: 2rem;
+        width: 5rem;
+    }
+
+    button.nav-button{
+        margin-left: 19rem;
+        height: 3.5rem;
+        width: 7.4rem;
+        border: 2px solid white;
+        color: white;
+        font-size: 1rem;
+    }
+    button.nav-button:hover{
+        margin: rgb(73, 148, 213);
+        background-color: white;
+        color: rgb(133, 193, 245);
+    }
+    h1#heading {
+        font-size: 1.8rem;
+        margin-top: 12vh;
+    }
+
+    nav.button{
+        background-color: rgb(133, 193, 245);
+        position: fixed;
+        width: 100vw;
+    }
+
+    .team .members{
+        flex-direction: column;
+    }
+
+    .team .members article{
+        margin-bottom: 2rem;
+    }
+
+    p.service{
+        padding: 2rem;
+    }
+
+    .section-two  *, .section-two > div > * {
+        width: 80vw;
+        margin-left: -4rem;
+    }
+
+    .section-two  > *{
+        margin-left: -4rem;
+    }
+
+    footer  p{
+        text-align: center;
+        width: 80vw;
+        margin-left: -9rem;
+    }
+
+    footer h3, footer a ul{
+        text-align: center;
+    }
+
+    footer{
+        height: 55rem;
+    }
+
+    .foot-ic p{
+        margin-left: -4rem;
+    }
+
+    .foot-ic{
+        align-items: center;
+         margin-left: 1rem;
+    }
+
+    .foot-ic a img{
+        display: none;
+    }
+    footer .copyright p.copy{
+        margin-left: 3rem;
+    }
+
+    .quick li a{
+        text-align: left;
+    }
+
+    .quick{
+        text-align: center;
+    }
+
+    .nav-mobile .navigation-mobile{
+        display: none;
+        margin-left: 10rem;
+        height: 50vh;
+    }
+
+    .nav-mobile .navigation-mobile li{
+        color: white;
+        height: 1rem;
+        margin-top: 2rem;
+    }
+    .nav-mobile .navigation-mobile li a:hover{
+        color: rgb(3, 3, 227);
+    }
+
+    .nav-mobile .navigation-mobile li a{
+        color: white;
+        font-size: larger;
+    }
+
+    #login{
+        margin-top: 2rem;
+        border: 2px solid white;
+        color: white;
+        margin-left: 2rem;
+        height: 4rem;
+        width: 6rem;
+    }
+
+    #login:hover{
+        background-color: white;
+        color: rgb(133, 193, 245);
+    }
+    
+
+    button.nav-button:focus ~ .nav-mobile .navigation-mobile{
+        display: block;
+        list-style-type: none;
+        transition: 300ms;
+    }
+
+    button.nav-button:focus ~ button.nav-button{
+        display: none;
+    }
+
+}
